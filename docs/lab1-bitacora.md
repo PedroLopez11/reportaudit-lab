@@ -13,7 +13,11 @@
 
 | # | Función | Línea | Qué sospechas | Dato de entrada (*source*) | Destino peligroso (*sink*) |
 |---|---|---|---|---|---|
+<<<<<<< HEAD
 | 1 |  | 22 | Contraseña hardcodeada |  |  |
+=======
+| 1 |  |  |  |  |  |
+>>>>>>> f1d323bb1d2111535270bbd0afe1bb7498fa6307
 | 2 |  |  |  |  |  |
 | 3 |  |  |  |  |  |
 | 4 |  |  |  |  |  |
@@ -32,12 +36,21 @@ llegues a la parte correspondiente.
 
 | Hallazgo | Manual (B) | SonarQube for IDE sin conexión (D) | SonarQube for IDE en Connected Mode (E) | SonarQube Cloud (F) | CodeQL (F) | Semgrep (G) | Trivy (K) |
 |---|---|---|---|---|---|---|---|
+<<<<<<< HEAD
 | H1 Inyección SQL en `buscar_reportes_cliente` | ✗ | ✗ |  |  |  |  | n/a |
 | H2 Inyección de comandos en `convertir_a_pdf` | ✗ | ✗ |  |  |  |  | n/a |
 | H3 Deserialización YAML insegura en `cargar_configuracion` | ✗ | ✗ |  |  |  |  | n/a |
 | H4 Hash MD5 en `hash_password_legacy` | ✗ | ✓ |  |  |  |  | n/a |
 | H5 Clave de API escrita en el código | ✗ | ✗ |  |  |  |  |  |
 | H6 Contraseña SMTP escrita en el código | ✓ | ✓ |  |  |  |  |  |
+=======
+| H1 Inyección SQL en `buscar_reportes_cliente` |  |  |  |  |  |  | n/a |
+| H2 Inyección de comandos en `convertir_a_pdf` |  |  |  |  |  |  | n/a |
+| H3 Deserialización YAML insegura en `cargar_configuracion` |  |  |  |  |  |  | n/a |
+| H4 Hash MD5 en `hash_password_legacy` |  |  |  |  |  |  | n/a |
+| H5 Clave de API escrita en el código |  |  |  |  |  |  |  |
+| H6 Contraseña SMTP escrita en el código |  |  |  |  |  |  |  |
+>>>>>>> f1d323bb1d2111535270bbd0afe1bb7498fa6307
 
 **Conclusión de la matriz** (Parte K): ¿alguna herramienta lo detectó todo? ¿Qué
 te dice eso sobre depender de una sola herramienta?
